@@ -1,5 +1,5 @@
 import React from 'react'
-import portfolio from "../../../assets/portfolio.jpg"
+import portfolio from "../../../assets/Abraham Bazán Marcas de agua1.png"
 import "./Home.scss"
 import { motion } from 'framer-motion'
 

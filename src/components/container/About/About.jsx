@@ -3,7 +3,7 @@ import "./About.scss";
 
 import { motion } from 'framer-motion';
 import { bios } from '../../../Data';
-import portfolio from "../../../assets/portfolio.jpg"
+import portfolio from "../../../assets/WIN_20200817_16_54_10_Pro.jpg"
 const About = () => {
 
 
