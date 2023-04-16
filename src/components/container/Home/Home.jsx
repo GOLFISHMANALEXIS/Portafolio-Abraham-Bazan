@@ -35,7 +35,7 @@ const Home = () => {
       <div className="profile_text">
         <h3 className='name'><span>Abraham Martinez Bazan</span> </h3>
         <span className='job'> ABOGADO</span>
-      <span className='text'>Slogan<br />Random <br />  elegir</span>
+      <span className='text'>Seriedad y profesionalismo</span>
         <motion.a
           href="#contact"
           whileHover={{ scale: 1.1 }}

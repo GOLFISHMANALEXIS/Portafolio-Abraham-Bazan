@@ -34,7 +34,17 @@ const About = () => {
           transition={{ duration: 1 }}
         >
 
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae at rem, tenetur ad ipsa sequi, optio eius laudantium vero minus maxime laborum est et nemo consequatur nostrum distinctio sed, nulla doloribus officiis ea eligendi explicabo.</p>
+          <p>El abogado Abraham Bazán, es licenciado en Derecho por la Benemérita
+Universidad Autónoma de Puebla, con cédula profesional 5402831. Estudió la
+maestría en Derecho Constitucional y Amparo en la Universidad Popular
+Autónoma del Estado de Puebla, obteniendo título y cédula profesional 9679861.
+También estudio el Doctorado en Derecho en el Centro de Ciencias Jurídicas de
+Puebla, obteniendo título y cédula profesional 11525444. Se ha desarrollado en
+diversas áreas del derecho, como la docencia y la judicatura; también ha
+participado en diversos foros académicos exponiendo temas de actualidad y
+relevancia jurídica. Actualmente, se dedica de tiempo completo al litigio en las
+materias civil y penal.
+</p>
           {bios.map(bio => {
             return (
               <div className="bio" key={bio.id}>

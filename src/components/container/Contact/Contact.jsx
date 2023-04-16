@@ -22,7 +22,9 @@ const Contact = () => {
           transition={{duration: 1}}
           className='contact_left_container'>
           <h3>Informacion ↓</h3>
-          <p className='contact_text'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse nihil unde atque voluptates, cumque molestias eveniet voluptatum animi consectetur magni mollitia dolor exercitationem labore maiores!</p>
+          <p className='contact_text'>Somos un despacho jurídico con especialistas en diversas áreas del Derecho,
+especialmente en las áreas civil, familiar, mercantil y penal. Además, contamos
+con el respaldo técnico de peritos en diversas ciencias forenses y cibernéticas. </p>
           {contacts.map(contact => {
             return (
               <div className='contact_left' key={contact.id}>
